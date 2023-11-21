@@ -1,7 +1,7 @@
 export const menu = [
   {
     id: 1,
-    title: "main",
+    // title: "main",
     listItems: [
       {
         id: 1,
@@ -19,7 +19,7 @@ export const menu = [
   },
   {
     id: 2,
-    title: "lists",
+    // title: "lists",
     listItems: [
       {
         id: 1,
@@ -49,7 +49,7 @@ export const menu = [
   },
   {
     id: 3,
-    title: "general",
+    // title: "general",
     listItems: [
       {
         id: 1,
@@ -79,7 +79,7 @@ export const menu = [
   },
   {
     id: 4,
-    title: "Maintenance",
+    // title: "Maintenance",
     listItems: [
       {
         id: 1,

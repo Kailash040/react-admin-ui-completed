@@ -4,8 +4,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        
-        <span> kailash admin</span>
+        <h3>ENTERPRISE PLAN</h3>
+        <p> Academy Hub</p>
+
       </div>
       <div className="icons">
         <img src="/search.svg" alt="" className="icon" />
