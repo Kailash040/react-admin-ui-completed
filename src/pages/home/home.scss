@@ -29,7 +29,7 @@
 
   .box1 {
     grid-column: span 1;
-    grid-row: span 3;
+    grid-row: span 1;
   }
 
   .box4 {
@@ -37,11 +37,27 @@
     grid-row: span 3;
   }
   .box7 {
-    grid-column: span 2;
-    grid-row: span 2;
+    grid-column: span 3;
+    grid-row: span 1;
 
     @include md {
       display: none;
     }
   }
+}
+.home_container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(179px, auto);
+gap: 20px;
+margin-bottom: 20px;
+}
+.home_container_item{
+  padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #384256;
+
+}
+.userTexts{
+  display: flex;
 }

@@ -36,8 +36,8 @@
 
         .userTexts {
           display: flex;
-          flex-direction: column;
-          gap: 5px;
+          flex-direction: row;
+          gap: 15px;
 
           .username {
             font-size: 14px;

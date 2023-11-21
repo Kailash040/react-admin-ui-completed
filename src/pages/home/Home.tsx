@@ -15,35 +15,34 @@ import "./home.scss";
 
 const Home = () => {
   return (
-    <div className="home">
-      <div className="box box1">
-        <TopBox />
-      </div>
-      <div className="box box2">
+    <>
+    <div className="home_container">
+    <div className="box box2  home_container_item">
         <ChartBox {...chartBoxUser} />
       </div>
-      <div className="box box3">
+      <div className="box box3 home_container_item">
         <ChartBox {...chartBoxProduct} />
       </div>
-      <div className="box box4">
-        <PieChartBox />
-      </div>
-      <div className="box box5">
+      <div className="box box5 home_container_item">
         <ChartBox {...chartBoxConversion} />
       </div>
-      <div className="box box6">
-        <ChartBox {...chartBoxRevenue} />
-      </div>
+    
+    </div>
+    {/*  */}
+    {/*  */}
+    <div className="home">
+    
+     
       <div className="box box7">
         <BigChartBox />
       </div>
-      <div className="box box8">
-        <BarChartBox {...barChartBoxVisit} />
+     
+      <div className="box box1">
+        <TopBox />
       </div>
-      <div className="box box9">
-        <BarChartBox {...barChartBoxRevenue} />
-      </div>
+   
     </div>
+       </>
   );
 };
 

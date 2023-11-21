@@ -12,10 +12,10 @@ const TopBox = () => {
               <img src={user.img} alt="" />
               <div className="userTexts">
                 <span className="username">{user.username}</span>
-                <span className="email">{user.email}</span>
+                <span className="username">{user.progress}</span>
+            <span className="amount">${user.amount}</span>
               </div>
             </div>
-            <span className="amount">${user.amount}</span>
           </div>
         ))}
       </div>
