@@ -11,7 +11,8 @@
     display: flex;
     font-weight: bold;
     gap: 10px;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
   }
   .icons {
     display: flex;
@@ -56,4 +57,7 @@
       }
     }
   }
+}
+.logo img{
+  width: 30px;
 }

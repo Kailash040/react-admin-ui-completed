@@ -4,8 +4,15 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <h3>ENTERPRISE PLAN</h3>
+        <span>
+          
+        <img src="https://www.svgrepo.com/download/13644/avatar.svg" alt="" />
+        </span>
+        <span>
+
         <p> Academy Hub</p>
+        <h3>ENTERPRISE PLAN</h3>
+        </span>
 
       </div>
       <div className="icons">

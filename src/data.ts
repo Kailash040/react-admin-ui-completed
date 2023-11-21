@@ -79,7 +79,7 @@ export const menu = [
   },
   {
     id: 4,
-    // title: "Maintenance",
+    title: "YOUR ACEDEMY",
     listItems: [
       {
         id: 1,
@@ -97,7 +97,7 @@ export const menu = [
   },
   {
     id: 5,
-    title: "analytics",
+    // title: "analytics",
     listItems: [
       {
         id: 1,
