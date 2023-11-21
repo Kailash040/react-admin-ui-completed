@@ -13,6 +13,7 @@ import {
   QueryClient,
   QueryClientProvider,
 } from "@tanstack/react-query";
+import DenseTables from "./components/DenseTable/DenseTables";
 
 
 const queryClient = new QueryClient();
@@ -32,6 +33,7 @@ function App() {
             </QueryClientProvider>
           </div>
         </div>
+        <DenseTables/>
         <Footer />
       </div>
     );

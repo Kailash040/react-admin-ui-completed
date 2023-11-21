@@ -56,7 +56,7 @@ const data = [
 const BigChartBox = () => {
   return (
     <div className="bigChartBox">
-      <h1>Revenue Analytics</h1>
+      <h1>MONTHLY ACTIVE LEARNING</h1>
       <div className="chart">
         <ResponsiveContainer width="99%" height="100%">
           <AreaChart

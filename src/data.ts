@@ -41,7 +41,6 @@ export const menu = [
       },
       {
         id: 4,
-        title: "Posts",
         url: "/posts",
         icon: "post2.svg",
       },
@@ -119,10 +118,10 @@ export const topDealUsers = [
   {
     id: 1,
     img: "https://images.pexels.com/photos/8405873/pexels-photo-8405873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    username: "Elva McDonald",
-    progress : "50",
+    username: "Name",
+    progress : "Progress",
     email: "elva@gmail.com",
-    amount: "3.668",
+    amount: "Complete",
   },
   {
     id: 2,
@@ -177,7 +176,7 @@ export const topDealUsers = [
 export const chartBoxUser = {
   color: "#8884d8",
   icon: "/userIcon.svg",
-  title: "Total Users",
+  title: "COMPLETION RATE",
   number: "11.238",
   dataKey: "users",
   percentage: 45,
@@ -195,7 +194,7 @@ export const chartBoxUser = {
 export const chartBoxProduct = {
   color: "skyblue",
   icon: "/productIcon.svg",
-  title: "Total Products",
+  title: "ACTIVATION RATE",
   number: "238",
   dataKey: "products",
   percentage: 21,
@@ -229,7 +228,7 @@ export const chartBoxRevenue = {
 export const chartBoxConversion = {
   color: "gold",
   icon: "/conversionIcon.svg",
-  title: "Total Ratio",
+  title: "ENROLLMENT RATE",
   number: "2.6",
   dataKey: "ratio",
   percentage: 12,
